@@ -9,17 +9,30 @@
 </head>
 <body>
     <canvas id = "jsCanvas" class="canvas"></canvas>
-    <div class="palettes">
-        <div class="palettes_colors" id="jsColors">
-            <div class="palettes_color" style="background-color: black;"></div>
-            <div class="palettes_color" style="background-color: white;"></div>
-            <div class="palettes_color" style="background-color: #FF6A6A;"></div>
-            <div class="palettes_color" style="background-color: #FFC90E;"></div>
-            <div class="palettes_color" style="background-color: #FFFA8C;"></div>
-            <div class="palettes_color" style="background-color: #B5E61D;"></div>
-            <div class="palettes_color" style="background-color: #99D9EA;"></div>
-            <div class="palettes_color" style="background-color: #C8BFE7;"></div>
-            <div class="palettes_color" style="background-color: #FFAEC9;"></div>
+    <div class="controls">
+        <div class="controls_range">
+            <input type="range" 
+            id="jsRange" 
+            min="1" 
+            max="10" 
+            value="5" 
+            step="0.1"
+            color= #13bba4/>
+        </div>
+        <div class="controls_controls">
+            <button id = "jsMode">Fill</button>
+            <button id = "jsSave">Save</button>
+        </div>
+        <div class="controls_colors" id="jsColors">
+            <div class="controls_color" style="background-color: black;"></div>
+            <div class="controls_color" style="background-color: white;"></div>
+            <div class="controls_color" style="background-color: #FF6A6A;"></div>
+            <div class="controls_color" style="background-color: #FFC90E;"></div>
+            <div class="controls_color" style="background-color: #FFFA8C;"></div>
+            <div class="controls_color" style="background-color: #B5E61D;"></div>
+            <div class="controls_color" style="background-color: #99D9EA;"></div>
+            <div class="controls_color" style="background-color: #C8BFE7;"></div>
+            <div class="controls_color" style="background-color: #FFAEC9;"></div>
         </div>
 
     </div>
